@@ -12,7 +12,7 @@ public class Euclid {
      * @param n second non-negative integer, n != 0 if m = 0.
      * @return greatest common divisor between m and n
      */
-    public int recersive_gcd(int m, int n){
+    public int recursive_gcd(int m, int n){
 
     }
 }
