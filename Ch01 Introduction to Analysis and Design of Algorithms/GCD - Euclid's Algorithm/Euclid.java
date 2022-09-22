@@ -13,6 +13,11 @@ public class Euclid {
      * @return greatest common divisor between m and n
      */
     public int recursive_gcd(int m, int n){
-
+        public int recursive_gcd(int m, int n) {
+        if(n == 0)
+            return m;
+        
+        return recursive_gcd(n, m % n);
+    }
     }
 }
