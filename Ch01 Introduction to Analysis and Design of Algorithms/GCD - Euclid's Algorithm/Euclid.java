@@ -6,7 +6,7 @@ public class Euclid {
     /**
      * Applies the algorithm of Euclid's to solve the gcd
      * problem recursively.
-     * The Pseodocode can be found at ../README.md.
+     * The psueodocode can be found at ../README.md.
      *
      * @param m first non-negative integer, m != 0 if n = 0.
      * @param n second non-negative integer, n != 0 if m = 0.
