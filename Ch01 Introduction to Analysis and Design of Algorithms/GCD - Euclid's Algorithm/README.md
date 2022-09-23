@@ -14,3 +14,14 @@ First, we write the psuedocode as follows.
 &emsp;&emsp; return m  
 &emsp;else return Euclid(n, m mod n)
 
+### Java code of Recursive Euclid's Algorithm
+The code can be found in [Euclid.java](https://github.com/omar-danasoury/algorithms-lab/blob/main/Ch01%20Introduction%20to%20Analysis%20and%20Design%20of%20Algorithms/GCD%20-%20Euclid's%20Algorithm/Euclid.java).
+
+```
+public int recursive_gcd(int m, int n){
+    if(n == 0)
+        return m;
+       
+    return recursive_gcd(n, m % n);
+}
+```
